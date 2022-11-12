@@ -24,3 +24,6 @@
 81	175	6899709805073619	Generateur_automatique_de_phrases.exe	672330d6ed94ec1a
 2	75	6899710637112521	CMakeFiles/Generateur_automatique_de_phrases.dir/main.c.obj	7fa4ff94a4526643
 75	171	6899710638022727	Generateur_automatique_de_phrases.exe	672330d6ed94ec1a
+12	271	6900005376407912	CMakeFiles/Generateur_automatique_de_phrases.dir/manipulation_fichier.c.obj	76c8b47f187a9c31
+1	272	6900005376407912	CMakeFiles/Generateur_automatique_de_phrases.dir/main.c.obj	7fa4ff94a4526643
+272	446	6900005378143373	Generateur_automatique_de_phrases.exe	672330d6ed94ec1a
