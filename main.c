@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include "manipulation_fichier.h"
 int main() {
-
+//Ouverture d'un fichier
     FILE *fichier;
-    //fichier = openFile("mini_dico.txt","r");
+//Stockage du contenu du fichier mini_dico.txt dans une variable de type FILE
+
     fichier = fopen("mini_dico.txt", "r");
     if(fichier==NULL){
         printf("Erreur fopen\n");
@@ -12,6 +13,5 @@ int main() {
     }
     readOpenedFile(fichier);
 
-    //printf("The one piece is real");
     return 0;
 }

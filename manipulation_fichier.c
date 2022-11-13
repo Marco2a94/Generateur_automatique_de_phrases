@@ -5,14 +5,7 @@
 #include <stdlib.h>
 #include "manipulation_fichier.h"
 
-FILE* openFile(char fileName, char openingType){
-    FILE *file;
-    file = fopen(fileName, openingType);
-    if(file==NULL){
-        printf("Error : File can't be opened\n");
-    }
-    return file;
-}
+//Fonction qui affiche dans la console le contenu d'un fichier
 void readOpenedFile(FILE *file) {
     char c;
     while ((c = fgetc(file)) != EOF)

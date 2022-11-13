@@ -10,5 +10,5 @@
 #endif //GENERATEUR_AUTOMATIQUE_DE_PHRASES_MANIPULATION_FICHIER_H
 
 //Fonction de lecture de fichier :
-FILE* openFile(char fileName, char openingType);
+
 void readOpenedFile(FILE *file);
