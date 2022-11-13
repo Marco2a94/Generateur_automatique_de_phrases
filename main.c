@@ -4,6 +4,7 @@
 int main() {
 //Ouverture d'un fichier
     FILE *fichier;
+    int FLength;
 //Stockage du contenu du fichier mini_dico.txt dans une variable de type FILE
 
     fichier = fopen("mini_dico.txt", "r");
@@ -11,7 +12,9 @@ int main() {
         printf("Erreur fopen\n");
         return 1;
     }
-    readOpenedFile(fichier);
-
+    //readOpenedFile(fichier);
+    FLength= fileLength(fichier, "mini_dico.txt");
+    printf("%d",FLength);
+    fclose(fichier);
     return 0;
 }
