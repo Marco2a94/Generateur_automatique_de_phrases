@@ -61,6 +61,12 @@ build CMakeFiles/Generateur_automatique_de_phrases.dir/manipulation_fichier.c.ob
   OBJECT_DIR = CMakeFiles\Generateur_automatique_de_phrases.dir
   OBJECT_FILE_DIR = CMakeFiles\Generateur_automatique_de_phrases.dir
 
+build CMakeFiles/Generateur_automatique_de_phrases.dir/trees.c.obj: C_COMPILER__Generateur_automatique_de_phrases_Debug C$:/Users/Marco$ Arrighi/CLionProjects/Generateur_automatique_de_phrases/trees.c || cmake_object_order_depends_target_Generateur_automatique_de_phrases
+  DEP_FILE = CMakeFiles\Generateur_automatique_de_phrases.dir\trees.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Generateur_automatique_de_phrases.dir
+  OBJECT_FILE_DIR = CMakeFiles\Generateur_automatique_de_phrases.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Generateur_automatique_de_phrases
@@ -69,7 +75,7 @@ build CMakeFiles/Generateur_automatique_de_phrases.dir/manipulation_fichier.c.ob
 #############################################
 # Link the executable Generateur_automatique_de_phrases.exe
 
-build Generateur_automatique_de_phrases.exe: C_EXECUTABLE_LINKER__Generateur_automatique_de_phrases_Debug CMakeFiles/Generateur_automatique_de_phrases.dir/main.c.obj CMakeFiles/Generateur_automatique_de_phrases.dir/manipulation_fichier.c.obj
+build Generateur_automatique_de_phrases.exe: C_EXECUTABLE_LINKER__Generateur_automatique_de_phrases_Debug CMakeFiles/Generateur_automatique_de_phrases.dir/main.c.obj CMakeFiles/Generateur_automatique_de_phrases.dir/manipulation_fichier.c.obj CMakeFiles/Generateur_automatique_de_phrases.dir/trees.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Generateur_automatique_de_phrases.dir
