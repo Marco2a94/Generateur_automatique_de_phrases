@@ -8,30 +8,30 @@
 
 #define Taille_Max 50
 //Fonction qui affiche dans la console le contenu d'un fichier
-void readOpenedFile(FILE *fileName) {
+void readOpenedFile(FILE *file) {
     int i=0;
 
     char str[Taille_Max];
-    while ((fgets(str, Taille_Max, fileName)) != NULL)
+    while ((fgets(str, Taille_Max, file)) != NULL)
     {
         //code pour une future fonction de selection
-        while(str[i] != '\n')
+       /* while(str[i] != '\n')
         {
             if(str[i]=='\t')
             printf("%c\n", str[i]);
             i++;
-        }
-            printf("%s\n", str);
+        }*/
+            printf("%s", str);
         i = 0;
     }
 
 }
-int fileLength(FILE* fileName, char *filePath){
+int fileLength(FILE* file){
     int length=0;
     char c;
-    if(fileName != NULL)
+    if(file != NULL)
     {
-        while(fscanf(fileName,"%c",&c) != EOF)
+        while(fscanf(file,"%c",&c) != EOF)
         {
             length++;
         }

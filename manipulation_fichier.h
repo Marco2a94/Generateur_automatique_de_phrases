@@ -12,5 +12,5 @@
 //Fonction de lecture de fichier :
 
 void readOpenedFile(FILE *fileName);
-int fileLength(FILE *fileName, char *filePath);
-void turnFileIntoTab(char *filePath, char *str);
+int fileLength(FILE *fileName);
+void turnFileIntoTab(char *filePath);
